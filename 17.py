@@ -48,4 +48,3 @@ print(datetime_pacific.strftime('%B %d,%Y'))
 # strptime(p=parsing)
 datetime_thing = datetime.datetime.strptime('April 29,2020', '%B %d,%Y')
 print(repr(datetime_thing))
-
